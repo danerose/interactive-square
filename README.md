@@ -1,4 +1,4 @@
-# Demo
+# You cant test the result of the test here
 [Interactive Square] (https://danerose.github.io/interactive-square/)
 
 # js-test
