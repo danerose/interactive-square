@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+  }
+  
+  #form {
+    padding: 40px;
+  }
+  
+  #message {
+    padding: 40px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+  }
+
+  #main {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .child {
+    width: var(--size);
+    height: var(--size);
+    position: absolute;
+    background-color: var(--color);
+    transition: background-color 0.3s;
+  }
